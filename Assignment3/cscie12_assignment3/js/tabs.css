@@ -1,0 +1,18 @@
+body {
+     width:80%;
+     margin: auto;
+     }
+	 
+#fragment-1 ul li ul li a, #fragment-2 ul li ul li a {
+	text-decoration: none;
+	color: #FF3300
+	}
+	
+#fragment-1 ul li ul, #fragment-2 ul li ul {
+	list-style: none;
+	}
+
+#fragment-1>ul>li, #fragment-2>ul>li {
+	margin: 20px;
+    }
+

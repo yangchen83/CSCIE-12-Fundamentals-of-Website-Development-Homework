@@ -1,0 +1,72 @@
+/*
+  CSS file for books.html
+*/
+
+body { background-color: lime;
+	       width: 60%;
+		   margin: auto;
+		   font-family: sans-serif;
+		   
+	
+}
+
+h1 { background-color: white;
+       color: orange;
+       border: thick solid orange;
+	   padding: 10px;
+	   text-align: center;
+	   font-weight: bold;
+
+
+	
+}
+
+.booklist{ padding: 0px;
+}
+
+.book { background-color: white;
+	       border: medium solid red;
+		   margin: 20px;
+		   display: block;
+		   padding: 20px;
+	
+}
+
+.book ul { padding: 0px; 
+	          list-style: none;
+	}
+
+.bookcover { float: right;
+	              border: thin solid red;
+}
+
+.author { color: red;
+			 font-style: italic;
+			 font-weight: bold;
+}
+
+a:link, a:visited { color: blue;
+	                    font-weight: bold;
+	                    text-decoration: none;
+}
+
+a:active{ font-variant: small-caps;
+}
+
+a:hover{ color: red;
+}
+
+
+.publisher{ font-variant: small-caps;
+}
+
+.date{ font-size: 80%;
+	      margin-top: 10px;
+}
+
+.isbn{ font-size: 80%;
+}
+
+.clearme { clear: right;
+	          width: 0;
+}

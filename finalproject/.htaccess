@@ -1,0 +1,22 @@
+#####################################################
+# Directives for custom error documents
+
+ErrorDocument 404 /~ychen/feifeirun/finalproject/error_404.php
+
+#####################################################
+# Expiration headers
+
+ExpiresActive On
+ExpiresByType text/css A86400
+ExpiresByType application/x-javascript A86400
+ExpiresByType image/jpeg A86400
+ExpiresByType image/gif A86400
+
+
+#####################################################
+# Compression filters
+
+AddOutputFilterByType DEFLATE text/xhtml
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/x-javascript

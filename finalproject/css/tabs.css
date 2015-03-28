@@ -1,0 +1,43 @@
+#tabs {
+     margin: auto;
+     clear: left;
+     }
+	 
+#fragment-1 a, #fragment-2 a, #fragment-3 a, #fragment-5 a {
+	text-decoration: none;
+	color: #4b8ed0;
+	}
+	
+
+
+#fragment-2 li, #fragment-3 li {
+    border: 1px solid #000;
+    border-radius: 20px;
+    list-style: none;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+#fragment-2 ul, #fragment-3 ul {
+    padding: 0;
+}
+
+#fragment-1 img {
+    float: left;
+    border-color: #fff;
+    border-radius: 50px;
+    margin: 0 10px;
+}
+
+#fragment-2 img, #fragment-3 img {
+    float: right;
+    border-color: #fff;
+    border-radius: 50px;
+}
+
+#fragment-5 img {
+    float: right;
+    margin: 10px;
+    border-color: #fff;
+    border-radius: 75px;
+}

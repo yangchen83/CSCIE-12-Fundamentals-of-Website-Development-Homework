@@ -1,0 +1,28 @@
+
+body { 
+background-color: #FFFFCC;
+ }
+
+h1 {
+font-family: "Arial Black", Gadget, sans-serif;
+color: red;
+ }
+
+h2 { 
+color: maroon;
+ }
+
+h3 {
+color: maroon;
+font-family: Verdana, Geneva, sans-serif;
+border-bottom-style: solid;
+ }
+
+p { 
+font-family: Tahoma, Geneva, sans-serif;
+ }
+
+p.footer {
+color: grey;
+font-size: 10pt;
+ }

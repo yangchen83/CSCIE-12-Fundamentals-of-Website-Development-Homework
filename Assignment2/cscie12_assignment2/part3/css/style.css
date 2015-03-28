@@ -1,0 +1,121 @@
+body {
+   margin: auto;
+   width:80%;
+   font-family: "Times New Roman",Times,serif;
+}
+
+header {  
+  text-indent: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+ 
+  background-image: url(../images/masthead.png);
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 50px;
+}
+
+#top {
+background-color: blue;
+height: 10px;
+
+}
+
+nav ul {
+list-style: none;
+}
+
+nav a:link, nav a:visited {
+text-decoration: none;
+color: black;
+}
+
+#main li{
+display: inline;
+padding: 0.5em 0.2em;
+margin-right: 0.1em;
+}
+
+#main li.youarehere a {
+color: red;
+text-decoration: underline;
+}
+
+#main a:hover {
+color: red;
+text-decoration: underline;
+}
+
+#category p {
+color: red;
+}
+
+#category ul {
+padding: 0.2em;
+}
+
+#category li {
+padding: 0.5em 0.2em;
+}
+
+#category a {
+display: block;
+}
+
+#category ul li ul {
+padding: 1em;
+}
+
+#category a.youarehere {
+color: red;
+}
+  
+#category a:hover{
+background-color: grey;
+}
+
+#category {
+float: left;
+width: 25%;
+}
+
+section {
+float: right;
+width: 70%;
+}
+
+footer{
+clear: both;
+color: grey;
+font-size: 0.8em;
+}
+
+#breadcrumb li span {
+    color: black;
+}
+
+#breadcrumb {
+    background-color: #ddd;
+}
+
+#breadcrumb ul {
+    display: inline;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#breadcrumb ul li {
+    display: inline;
+}
+
+#breadcrumb ul ul li {
+    background-image: url(../images/arrow.gif);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+
+#breadcrumb a:hover{
+color: red;
+text-decoration: underline;
+}

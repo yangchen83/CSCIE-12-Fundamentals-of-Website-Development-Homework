@@ -1,0 +1,44 @@
+
+body {
+background-color: #B2FFFF;
+text-align: center; 
+}
+
+h1 { 
+color: orange;
+font-family: "Lucida Console", Monaco, monospace;
+border-bottom-style: solid;
+border-color: red;
+ }
+ 
+p {
+font-family: "Lucida Console", Monaco, monospace; 
+ }
+
+legend { 
+color: red;
+font-weight: bold;
+font-size: 15pt;
+ }
+
+strong { 
+color: red; 
+ }
+
+fieldset { 
+border-color: red;
+width: 400px;
+background-color: #b2d9ff;
+margin:auto;
+text-align: left 
+ }
+
+input[type=submit] {
+background: orange;
+font-size: 25px;
+font-family: "Lucida Console", Monaco, monospace;
+font-weight: bold;
+border-color: red;
+color: red; 
+ }
+

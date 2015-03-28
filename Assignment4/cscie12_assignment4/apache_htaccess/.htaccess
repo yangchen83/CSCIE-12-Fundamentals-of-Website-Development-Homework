@@ -1,0 +1,28 @@
+#####################################################
+# Directives for custom error documents
+
+ErrorDocument 404 /~ychen/errors/error_404.html
+
+#####################################################
+# Expiration headers
+
+ExpiresActive On
+ExpiresByType text/css A86400
+ExpiresByType application/x-javascript A86400
+ExpiresByType image/jpeg A86400
+ExpiresByType image/gif A86400
+ExpiresByType image/png A86400
+
+
+#####################################################
+# Compression filters
+
+AddOutputFilterByType DEFLATE text/xhtml
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/x-javascript
+
+#####################################################
+# Custom redirect
+
+Redirect 302 /~ychen/myfavoritebook    http://www.amazon.com/Invention-Solitude-Paul-Auster-ebook/dp/B006JHUDQ4/ref=sr_1_1?s=books&ie=UTF8&qid=1398664083&sr=1-1&keywords=the+invention+of+solitude
